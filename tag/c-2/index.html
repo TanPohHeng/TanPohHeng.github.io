@@ -37,9 +37,9 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 .wp-block-post-title{box-sizing:border-box;word-break:break-word}.wp-block-post-title :where(a){display:inline-block;font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;text-decoration:inherit}
 /*# sourceURL=https://tanpohheng.github.io/wp-includes/blocks/post-title/style.min.css */
 </style>
-<style id="wp-block-video-inline-css">
-.wp-block-video{box-sizing:border-box}.wp-block-video video{height:auto;vertical-align:middle;width:100%}@supports (position:sticky){.wp-block-video [poster]{-o-object-fit:cover;object-fit:cover}}.wp-block-video.aligncenter{text-align:center}.wp-block-video :where(figcaption){margin-bottom:1em;margin-top:.5em}
-/*# sourceURL=https://tanpohheng.github.io/wp-includes/blocks/video/style.min.css */
+<style id="wp-block-embed-inline-css">
+.wp-block-embed.alignleft,.wp-block-embed.alignright,.wp-block[data-align=left]>[data-type="core/embed"],.wp-block[data-align=right]>[data-type="core/embed"]{max-width:360px;width:100%}.wp-block-embed.alignleft .wp-block-embed__wrapper,.wp-block-embed.alignright .wp-block-embed__wrapper,.wp-block[data-align=left]>[data-type="core/embed"] .wp-block-embed__wrapper,.wp-block[data-align=right]>[data-type="core/embed"] .wp-block-embed__wrapper{min-width:280px}.wp-block-cover .wp-block-embed{min-height:240px;min-width:320px}.wp-block-group.is-layout-flex .wp-block-embed{flex:1 1 0%;min-width:0}.wp-block-embed{overflow-wrap:break-word}.wp-block-embed :where(figcaption){margin-bottom:1em;margin-top:.5em}.wp-block-embed iframe{max-width:100%}.wp-block-embed__wrapper{position:relative}.wp-embed-responsive .wp-has-aspect-ratio .wp-block-embed__wrapper:before{content:"";display:block;padding-top:50%}.wp-embed-responsive .wp-has-aspect-ratio iframe{bottom:0;height:100%;left:0;position:absolute;right:0;top:0;width:100%}.wp-embed-responsive .wp-embed-aspect-21-9 .wp-block-embed__wrapper:before{padding-top:42.85%}.wp-embed-responsive .wp-embed-aspect-18-9 .wp-block-embed__wrapper:before{padding-top:50%}.wp-embed-responsive .wp-embed-aspect-16-9 .wp-block-embed__wrapper:before{padding-top:56.25%}.wp-embed-responsive .wp-embed-aspect-4-3 .wp-block-embed__wrapper:before{padding-top:75%}.wp-embed-responsive .wp-embed-aspect-1-1 .wp-block-embed__wrapper:before{padding-top:100%}.wp-embed-responsive .wp-embed-aspect-9-16 .wp-block-embed__wrapper:before{padding-top:177.77%}.wp-embed-responsive .wp-embed-aspect-1-2 .wp-block-embed__wrapper:before{padding-top:200%}
+/*# sourceURL=https://tanpohheng.github.io/wp-includes/blocks/embed/style.min.css */
 </style>
 <style id="wp-block-paragraph-inline-css">
 .is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
@@ -152,17 +152,17 @@ var IZ = {"options":[],"with_woocommerce":"0","exchange_thumbnails":"1","enable_
 {"imports":{"@wordpress/interactivity":"https://tanpohheng.github.io/wp-includes/js/dist/script-modules/interactivity/index.min.js?ver=efaa5193bbad9c60ffd1"}}
 </script>
 <link rel="modulepreload" href="https://tanpohheng.github.io/wp-includes/js/dist/script-modules/interactivity/index.min.js?ver=efaa5193bbad9c60ffd1" id="@wordpress/interactivity-js-modulepreload" fetchpriority="low">
-<style>img.zoooom,.zoooom img{padding:0!important;}.dialog-lightbox-widget-content[style] { top: 0 !important; left: 0 !important;}body.elementor-editor-active .zoooom::before { content: "\f179     Zoom applied to the image. Check on the frontend"; position: absolute; margin-top: 12px; text-align: right; background-color: white; line-height: 1.4em; left: 5%; padding: 0 10px 6px; font-family: dashicons; font-size: 0.9em; font-style: italic; z-index: 20; }</style><script></script><style class="wp-fonts-local">
+<style>img.zoooom,.zoooom img{padding:0!important;}</style><script></script><style class="wp-fonts-local">
 @font-face{font-family:Manrope;font-style:normal;font-weight:200 800;font-display:fallback;src:url('https://tanpohheng.github.io/wp-content/themes/twentytwentyfive/assets/fonts/manrope/Manrope-VariableFont_wght.woff2') format('woff2');}
 @font-face{font-family:"Fira Code";font-style:normal;font-weight:300 700;font-display:fallback;src:url('https://tanpohheng.github.io/wp-content/themes/twentytwentyfive/assets/fonts/fira-code/FiraCode-VariableFont_wght.woff2') format('woff2');}
 </style>
-<link rel="icon" href="https://tanpohheng.github.io/wp-content/uploads/2026/04/WIP-150x150.png" sizes="32x32">
+<style id="uagb-style-conditional-extension">@media (min-width: 1025px){body .uag-hide-desktop.uagb-google-map__wrap,body .uag-hide-desktop{display:none !important}}@media (min-width: 768px) and (max-width: 1024px){body .uag-hide-tab.uagb-google-map__wrap,body .uag-hide-tab{display:none !important}}@media (max-width: 767px){body .uag-hide-mob.uagb-google-map__wrap,body .uag-hide-mob{display:none !important}}</style><link rel="icon" href="https://tanpohheng.github.io/wp-content/uploads/2026/04/WIP-150x150.png" sizes="32x32">
 <link rel="icon" href="https://tanpohheng.github.io/wp-content/uploads/2026/04/WIP.png" sizes="192x192">
 <link rel="apple-touch-icon" href="https://tanpohheng.github.io/wp-content/uploads/2026/04/WIP.png">
 <meta name="msapplication-TileImage" content="https://tanpohheng.github.io/wp-content/uploads/2026/04/WIP.png">
 </head>
 
-<body class="archive tag tag-c-2 tag-17 wp-custom-logo wp-embed-responsive wp-theme-twentytwentyfive elementor-default elementor-kit-23">
+<body class="archive tag tag-c-2 tag-17 wp-custom-logo wp-embed-responsive wp-theme-twentytwentyfive">
 
 <a class="skip-link screen-reader-text" id="wp-skip-link" href="#wp--skip-link--target">Skip to content</a><div class="wp-site-blocks"><header class="wp-block-template-part">
 <div class="wp-block-group alignfull is-layout-flow wp-block-group-is-layout-flow">
@@ -205,10 +205,12 @@ var IZ = {"options":[],"with_woocommerce":"0","exchange_thumbnails":"1","enable_
 	<ul class="alignfull wp-block-post-template is-layout-flow wp-block-post-template-is-layout-flow"><li class="wp-block-post post-174 post type-post status-publish format-standard has-post-thumbnail hentry category-programming category-projects tag-c-2 tag-programming tag-unity">
 		
 		<div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
-			<figure class="wp-block-post-featured-image"><a href="https://tanpohheng.github.io/rover-i/" target="_self"><img loading="lazy" width="132" height="130" src="https://tanpohheng.github.io/wp-content/uploads/2026/09/image-16.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Rover &amp; I" style="aspect-ratio:3/2;width:100%;object-fit:cover;" decoding="async"></a></figure>
+			<figure class="wp-block-post-featured-image"><a href="https://tanpohheng.github.io/rover-i/" target="_self"><img width="132" height="130" src="https://tanpohheng.github.io/wp-content/uploads/2026/09/image-16.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Rover &amp; I" style="aspect-ratio:3/2;width:100%;object-fit:cover;" decoding="async"></a></figure>
 			<h2 class="wp-block-post-title has-x-large-font-size"><a href="https://tanpohheng.github.io/rover-i/" target="_self">Rover &amp; I</a></h2>
 			<div class="entry-content alignfull wp-block-post-content has-medium-font-size has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained">
-<figure class="wp-block-video"><video height="1080" style="aspect-ratio: 1920 / 1080;" width="1920" controls src="https://tanpohheng.github.io/wp-content/uploads/2026/09/RoverAndIDemo.mp4"></video></figure>
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Rover &amp; I Demo" width="500" height="281" src="https://www.youtube.com/embed/3aGmPs5wDV8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
 
 
 
@@ -272,14 +274,16 @@ var IZ = {"options":[],"with_woocommerce":"0","exchange_thumbnails":"1","enable_
 	</li><li class="wp-block-post post-176 post type-post status-publish format-standard has-post-thumbnail hentry category-programming category-projects tag-c-2 tag-c tag-games tag-programming">
 		
 		<div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
-			<figure class="wp-block-post-featured-image"><a href="https://tanpohheng.github.io/unarmed/" target="_self"><img loading="lazy" width="1080" height="1440" src="https://tanpohheng.github.io/wp-content/uploads/2026/08/Poster_7.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="UnArmed" style="aspect-ratio:3/2;width:100%;object-fit:cover;" decoding="async" srcset="https://tanpohheng.github.io/wp-content/uploads/2026/08/Poster_7.png 1080w, https://tanpohheng.github.io/wp-content/uploads/2026/08/Poster_7-225x300.png 225w, https://tanpohheng.github.io/wp-content/uploads/2026/08/Poster_7-768x1024.png 768w" sizes="(max-width: 1080px) 100vw, 1080px"></a></figure>
+			<figure class="wp-block-post-featured-image"><a href="https://tanpohheng.github.io/unarmed/" target="_self"><img width="1080" height="1440" src="https://tanpohheng.github.io/wp-content/uploads/2026/08/Poster_7.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="UnArmed" style="aspect-ratio:3/2;width:100%;object-fit:cover;" decoding="async" fetchpriority="high" srcset="https://tanpohheng.github.io/wp-content/uploads/2026/08/Poster_7.png 1080w, https://tanpohheng.github.io/wp-content/uploads/2026/08/Poster_7-225x300.png 225w, https://tanpohheng.github.io/wp-content/uploads/2026/08/Poster_7-768x1024.png 768w" sizes="(max-width: 1080px) 100vw, 1080px"></a></figure>
 			<h2 class="wp-block-post-title has-x-large-font-size"><a href="https://tanpohheng.github.io/unarmed/" target="_self">UnArmed</a></h2>
 			<div class="entry-content alignfull wp-block-post-content has-medium-font-size has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained">
-<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="768" height="1024" src="https://tanpohheng.github.io/wp-content/uploads/2026/08/Poster_7-1-768x1024.png" alt="" class="wp-image-279" srcset="https://tanpohheng.github.io/wp-content/uploads/2026/08/Poster_7-1-768x1024.png 768w, https://tanpohheng.github.io/wp-content/uploads/2026/08/Poster_7-1-225x300.png 225w, https://tanpohheng.github.io/wp-content/uploads/2026/08/Poster_7-1.png 1080w" sizes="(max-width: 768px) 100vw, 768px"></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="768" height="1024" src="https://tanpohheng.github.io/wp-content/uploads/2026/08/Poster_7-1-768x1024.png" alt="" class="wp-image-279" srcset="https://tanpohheng.github.io/wp-content/uploads/2026/08/Poster_7-1-768x1024.png 768w, https://tanpohheng.github.io/wp-content/uploads/2026/08/Poster_7-1-225x300.png 225w, https://tanpohheng.github.io/wp-content/uploads/2026/08/Poster_7-1.png 1080w" sizes="auto, (max-width: 768px) 100vw, 768px"></figure>
 
 
 
-<figure class="wp-block-video"><video height="1080" style="aspect-ratio: 1920 / 1080;" width="1920" controls src="https://tanpohheng.github.io/wp-content/uploads/2026/09/Trailer-Video.mp4"></video></figure>
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="UnArmed Trailer Video" width="500" height="281" src="https://www.youtube.com/embed/iuVvsvffkgQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
 
 
 
@@ -325,7 +329,7 @@ var IZ = {"options":[],"with_woocommerce":"0","exchange_thumbnails":"1","enable_
 
 
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" width="385" height="224" src="https://tanpohheng.github.io/wp-content/uploads/2026/09/image.png" alt="" class="wp-image-305" srcset="https://tanpohheng.github.io/wp-content/uploads/2026/09/image.png 385w, https://tanpohheng.github.io/wp-content/uploads/2026/09/image-300x175.png 300w" sizes="(max-width: 385px) 100vw, 385px"></figure>
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="385" height="224" src="https://tanpohheng.github.io/wp-content/uploads/2026/09/image.png" alt="" class="wp-image-305" srcset="https://tanpohheng.github.io/wp-content/uploads/2026/09/image.png 385w, https://tanpohheng.github.io/wp-content/uploads/2026/09/image-300x175.png 300w" sizes="auto, (max-width: 385px) 100vw, 385px"></figure>
 
 
 
@@ -367,7 +371,7 @@ var IZ = {"options":[],"with_woocommerce":"0","exchange_thumbnails":"1","enable_
 
 
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" width="323" height="448" src="https://tanpohheng.github.io/wp-content/uploads/2026/09/image-4.png" alt="" class="wp-image-310" srcset="https://tanpohheng.github.io/wp-content/uploads/2026/09/image-4.png 323w, https://tanpohheng.github.io/wp-content/uploads/2026/09/image-4-216x300.png 216w" sizes="(max-width: 323px) 100vw, 323px"></figure>
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="323" height="448" src="https://tanpohheng.github.io/wp-content/uploads/2026/09/image-4.png" alt="" class="wp-image-310" srcset="https://tanpohheng.github.io/wp-content/uploads/2026/09/image-4.png 323w, https://tanpohheng.github.io/wp-content/uploads/2026/09/image-4-216x300.png 216w" sizes="auto, (max-width: 323px) 100vw, 323px"></figure>
 
 
 
