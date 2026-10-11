@@ -10,4 +10,9 @@ Drive:  https://drive.google.com/drive/folders/1kvpUKpxjwwCqdK0gzopk6pDmxqB2joJ3
 \
 Sorry for the inconvenience
 
+P.S. Hey, if you've notice none of the projects are currently 
+displayed on the website, its because they were designed in 
+wordpress and there is currently compatibility issues for some
+of my plugins with static websites. It is currently work in progress,
+Thanks!
 ![Alt text](Images/WIP.png "a title")
